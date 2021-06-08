@@ -1,4 +1,4 @@
-# CodentsMusic (Telegram bot project)
+# MahakalMusic (Telegram bot project)
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -31,21 +31,21 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from CodentsMusic.config import ARQ_API_KEY
-from CodentsMusic.config import BOT_NAME as bn
-from CodentsMusic.config import DURATION_LIMIT
-from CodentsMusic.config import UPDATES_CHANNEL as updateschannel
-from CodentsMusic.config import que
-from CodentsMusic.function.admins import admins as a
-from CodentsMusic.helpers.admins import get_administrators
-from CodentsMusic.helpers.channelmusic import get_chat_id
-from CodentsMusic.helpers.decorators import authorized_users_only
-from CodentsMusic.helpers.filters import command, other_filters
-from CodentsMusic.helpers.gets import get_file_name
-from CodentsMusic.services.callsmusic import callsmusic, queues
-from CodentsMusic.services.callsmusic.callsmusic import client as USER
-from CodentsMusic.services.converter.converter import convert
-from CodentsMusic.services.downloaders import youtube
+from MahakalMusic.config import ARQ_API_KEY
+from MahakalMusic.config import BOT_NAME as bn
+from MahakalMusic.config import DURATION_LIMIT
+from MahakalMusic.config import UPDATES_CHANNEL as updateschannel
+from MahakalMusic.config import que
+from MahakalMusic.function.admins import admins as a
+from MahakalMusic.helpers.admins import get_administrators
+from MahakalMusic.helpers.channelmusic import get_chat_id
+from MahakalMusic.helpers.decorators import authorized_users_only
+from MahakalMusic.helpers.filters import command, other_filters
+from MahakalMusic.helpers.gets import get_file_name
+from MahakalMusic.services.callsmusic import callsmusic, queues
+from MahakalMusic.services.callsmusic.callsmusic import client as USER
+from MahakalMusic.services.converter.converter import convert
+from MahakalMusic.services.downloaders import youtube
 
 chat_id = None
 arq = ARQ("https://thearq.tech", ARQ_API_KEY)
@@ -742,7 +742,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @CodentsMusic to your Group and try again</b>",
+                        "\n\nOr manually add @MahakalPlayer to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
