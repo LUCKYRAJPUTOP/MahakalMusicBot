@@ -18,8 +18,8 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
-from CodentsMusic.config import API_HASH, API_ID, SESSION_NAME
-from CodentsMusic.services.callsmusic import queues
+from MahakalMusic.config import API_HASH, API_ID, SESSION_NAME
+from MahakalMusic.services.callsmusic import queues
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
 pytgcalls = PyTgCalls(client)
