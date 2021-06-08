@@ -20,8 +20,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from CodentsMusic.config import DURATION_LIMIT
-from CodentsMusic.helpers.errors import DurationLimitError
+from MahakalMusic.config import DURATION_LIMIT
+from MahakalMusic.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio[ext=m4a]",
