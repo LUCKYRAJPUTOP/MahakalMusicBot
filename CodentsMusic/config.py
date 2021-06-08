@@ -1,4 +1,4 @@
-# CodentsMusic- Telegram bot project
+# MahakalMusic- Telegram bot project
 # Copyright (C) 2021  Roj Serbest
 # Copyright (C) 2021  Inuka Asith
 # This program is free software: you can redistribute it and/or modify
@@ -27,18 +27,18 @@ que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "PyCodents")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/3f9df13f368b80eaf6859.png")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "MahakalMusics")
+BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/f39c42fbefe205f2180bc.jpg")
 admins = {}
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "DaisyXhelper")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "PyCodentsSupport")
-PROJECT_NAME = getenv("PROJECT_NAME", "CodentsMusic ")
-SOURCE_CODE = getenv("SOURCE_CODE", "github.com/teamdaisyx/CodentsMusic")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MahakalPlayer")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "MahakalMusicSupport")
+PROJECT_NAME = getenv("PROJECT_NAME", "MahakalMusicBot ")
+SOURCE_CODE = getenv("SOURCE_CODE", "github.com/LuckyRajputOP/MahakalMusicBot")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
-ARQ_API_KEY = getenv("ARQ_API_KEY", "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ")
+ARQ_API_KEY = getenv("ARQ_API_KEY", "IOADLV-XKNJMX-ILSCGA-KODGDH-ARQ)
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
