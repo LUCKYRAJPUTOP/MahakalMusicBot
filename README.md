@@ -1,11 +1,11 @@
-<h1 align="centre">CodentsMusic</h1>
+<h1 align="centre">MahakalMusic</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/82c951b83e8c3c623cdc2.jpg">
+  <img src="https://telegra.ph/file/98065a84265a01a25b0b4.jpg">
 </p>
 
 <h2> Whats new 🔥 </h2>
@@ -31,7 +31,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ## The easiest way to deploy this Bot
 ### HEROKU
-<a href="https://heroku.com/deploy?template=https://github.com/PyCodents/CodentsMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<a href="https://heroku.com/deploy?template=https://github.com/LuckyRajputOP/MahakalMusicBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ### StringSession
 
@@ -40,7 +40,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/PyCodents/CodentsMusic
+$ git clone https://github.com/LuckyRajputOP/MahakalMusicBot
 $ cd CodentsMusic
 # Upgrade sources
 # Install All Requirements 
@@ -48,7 +48,7 @@ $ pip(3) install -r requirements.txt
 # Rename example.env to local.env and fill
 $ npm i -g npm
 # Start Bot 
-$ python(3) -m CodentsMusic
+$ python(3) -m MahakalMusic
 ```
 
 ### Commands for Group 🛠
@@ -95,14 +95,14 @@ For linked group admins only:
 If you don't like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add @CodentsMusicBot as Channel admin with full perms
+ 3. Add @MahakalMusicBot as Channel admin with full perms
  4. add helper to channel
  5. Simply send commands in your group.
 
 
 ## Support
-- [Channel](https://telegram.dog/PyCodents)
-- [Group](https://telegram.dog/PyCodentsSupport)
+- [Channel](https://telegram.dog/MahakalMusics)
+- [Group](https://telegram.dog/MahakalSupport)
 
 
 
@@ -116,12 +116,8 @@ This bot is based on the original work done by [Rojserbest](http://github.com/ro
 CodentsMusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic)
 
 #### Contribtors
-- [iisgaurav](https://github.com/iisgaurav): Dev
-- [InukaASiTH](https://github.com/InukaAsith): Dev
+- [LuckyRajput](https://github.com/LuckyRajputOP): Dev
 - [Rojserbest](http://github.com/rojserbes): Dev
-- [Wrench](https://github.com/EverythingSuckz/): Dev
-- [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev
-- [AuraXNetwork](https://github.com/AuraXNetwork/AuraXMusicBot)
 - [Hamker Cat](https://github.com/thehamkercat/)
 - [Anjana-Ma](https://github.com/Anjana-Ma): 
 - [ImJanindu](https://github.com/ImJanindu): 
