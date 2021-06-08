@@ -1,4 +1,4 @@
-# CodentsMusic (Telegram bot project)
+# MahakalMusic (Telegram bot project)
 # Copyright (C) 2021  Inuka Asith & Rojserbest
 
 # This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 import requests
 from pyrogram import Client as Bot
 
-from CodentsMusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
-from CodentsMusic.services.callsmusic import run
+from MahakalMusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
+from MahakalMusic.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./Resources/foreground.png", "wb")
@@ -31,7 +31,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="CodentsMusic.modules"),
+    plugins=dict(root="MahakalMusic.modules"),
 )
 
 bot.start()
