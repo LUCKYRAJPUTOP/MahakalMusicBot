@@ -1,4 +1,4 @@
-# CodentsMusic (Telegram bot project )
+# MahakalMusic (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -18,8 +18,8 @@
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 
-from CodentsMusic.helpers.decorators import authorized_users_only, errors
-from CodentsMusic.services.callsmusic.callsmusic import client as USER
+from MahakalMusic.helpers.decorators import authorized_users_only, errors
+from MahakalMusic.services.callsmusic.callsmusic import client as USER
 
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
