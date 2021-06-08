@@ -1,4 +1,4 @@
-# CodentsMusic (Telegram bot project )
+# MahakalMusic (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -35,7 +35,7 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from CodentsMusic.modules.play import arq
+from MahakalMusic.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
