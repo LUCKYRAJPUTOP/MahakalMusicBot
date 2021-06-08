@@ -16,15 +16,15 @@
 
 
 from asyncio.queues import QueueEmpty
-from CodentsMusic.config import que
+from MahakalMusic.config import que
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from CodentsMusic.function.admins import set
-from CodentsMusic.helpers.channelmusic import get_chat_id
-from CodentsMusic.helpers.decorators import authorized_users_only, errors
-from CodentsMusic.helpers.filters import command, other_filters
-from CodentsMusic.services.callsmusic import callsmusic
+from MahakalMusic.function.admins import set
+from MahakalMusic.helpers.channelmusic import get_chat_id
+from MahakalMusic.helpers.decorators import authorized_users_only, errors
+from MahakalMusic.helpers.filters import command, other_filters
+from MahakalMusic.services.callsmusic import callsmusic
 
 
 
