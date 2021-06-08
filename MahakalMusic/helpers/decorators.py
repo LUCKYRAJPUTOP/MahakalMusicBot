@@ -20,8 +20,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from CodentsMusic.config import SUDO_USERS
-from CodentsMusic.helpers.admins import get_administrators
+from MahakalMusic.config import SUDO_USERS
+from MahakalMusic.helpers.admins import get_administrators
 
 
 def errors(func: Callable) -> Callable:
