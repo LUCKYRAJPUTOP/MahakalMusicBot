@@ -1,4 +1,4 @@
-# CodentsMusic (Telegram bot project )
+# MahakalMusic (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
