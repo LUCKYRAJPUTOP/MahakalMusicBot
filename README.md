@@ -35,7 +35,7 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### StringSession
 
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@iisgaurav/AuraXVCBot#main.py) 
+[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@LUCKYRAJPUTOP1/MahakalMusicBot) 
 
 ### ⚔ Self-hosting (For Devs) 
 ```sh
@@ -102,7 +102,7 @@ If you don't like to play in linked channel:
 
 ## Support
 - [Channel](https://telegram.dog/MahakalMusics)
-- [Group](https://telegram.dog/MahakalSupport)
+- [Group](https://telegram.dog/MahakalMusicSupport)
 
 
 
