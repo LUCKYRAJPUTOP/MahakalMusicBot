@@ -19,8 +19,8 @@ from typing import List
 
 from pyrogram.types import Chat, User
 
-from CodentsMusic.function.admins import get as gett
-from CodentsMusic.function.admins import set
+from MahakalMusic.function.admins import get as gett
+from MahakalMusic.function.admins import set
 
 
 async def get_administrators(chat: Chat) -> List[User]:
